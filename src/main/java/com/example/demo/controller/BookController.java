@@ -17,7 +17,7 @@ import java.util.stream.Collectors;
 @Slf4j
 @RestController
 @RequestMapping("/v1/books")
-@Tag(name = "Books", description = "API para la gestión de libros")
+@Tag(name = "Books", description = "Ya funcionó")
 public class BookController {
 
     private final BookService bookService;
